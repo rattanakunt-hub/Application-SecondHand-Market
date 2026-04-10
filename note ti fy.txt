@@ -1,0 +1,11 @@
+cd C:\mariadb\bin
+mariadb -uroot -pP@ssw0rd
+use mysql;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'P@ssw0rd';
+
+
+cd C:\mobileapp_api\Moblieapp_api2
+.\env\Scripts\activate
+C:\mobileapp_api\Moblieapp_api2\env\Scripts\uvicorn bookstore_api:app --host 192.168.100.21 --port 2500 --reload
+
+C:\mobileapp_api\Moblieapp_api2\env\Scripts\uvicorn bookstore_api:app --host 0.0.0.0 --port 2500 --reload

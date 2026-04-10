@@ -1,0 +1,4 @@
+d:\mobileapp_api\mobile_app.py:1313: DeprecationWarning: app() is deprecated since version 0.80.0. Use run() instead.
+  ft.app(target=main, view=ft.AppView.WEB_BROWSER, host="0.0.0.0", port=8550)
+d:\mobileapp_api\mobile_app.py:1281: DeprecationWarning: ElevatedButton is deprecated since version 0.80.0 and will be removed in version 1.0. Use Button instead.
+  ft.ElevatedButton(
